@@ -2,7 +2,7 @@ var http = require('http');
 var fs = require('fs');
 
 http.createServer(function(req,res){
-	var ret = fs.readFileSync('./test.txt');
+	var ret = fs.readFileSync('.'+req.url);
 	res.writeHead(200,{'Content-Type':'text/plain'});
 	console.log("Estoy aqui");
 	console.log(ret);
