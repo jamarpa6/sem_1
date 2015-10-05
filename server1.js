@@ -14,6 +14,12 @@ http.createServer(function(req,res){
 		res.writeHead(200,{'Content-Type':'text/plain'});
 		console.log("Estoy aqui");
 		console.log(ret);
+<<<<<<< HEAD
 		res.end(ret);
 	}
+=======
+		res.end(ret);	
+	}
+
+>>>>>>> tag_04
 }).listen(9000);
