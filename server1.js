@@ -13,8 +13,6 @@ http.createServer(function(req,res){
 		}
 		try{
 			res.writeHead(200,{'Content-Type':'text/html'});
-			console.log("Estoy aqui");
-			console.log(ret);
 			res.end(ret);
 		} catch(e){
 			res.writeHead(500,{'Content-Type':'text/html'});
@@ -31,8 +29,6 @@ http.createServer(function(req,res){
 		}
 		try{
 			res.writeHead(200,{'Content-Type':'text/plain'});
-			console.log("Estoy aqui");
-			console.log(ret);
 			res.end(ret);
 		} catch(e){
 			res.writeHead(500,{'Content-Type':'text/html'});
