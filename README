@@ -1,4 +1,5 @@
 Primer ejercicio realizado, version estable 1.0.0.
 Cada nuevo ejercicio se realizará en una rama nueva con el nombre del punto
-y se incluirá posteriormente a la rama master con una identificación del
-número de ejercicio para no confundirlo con el anterior.
+y se fusionará posteriormente a la rama master una vez probado su funcionamiento.
+En la rama master se mantendrá el la versión funcional más completa hasta finalizar el ejercicio,
+momento en el que la rama master contendrá la última versión.
